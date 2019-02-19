@@ -14,17 +14,19 @@ public class Tokenizacao {
 		
 		token = frase.split(" ");
 		
-		System.out.println("Palavras da frase que iniciam com \"B\":");
+		System.out.println("Palavras da frase que terminam com \"ED\":");
 		
 		for(String palavra : token) {
 			
-			if(palavra.startsWith("b") || palavra.startsWith("B")) {
+			if(palavra.endsWith("ED") || palavra.endsWith("ed") || palavra.endsWith("Ed") || palavra.endsWith("eD")) {
 				
 				System.out.println(palavra);
 				
 			}
 			
 		}
+		
+		
 		
 	}
 
