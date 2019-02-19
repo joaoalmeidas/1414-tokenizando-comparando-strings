@@ -16,6 +16,7 @@ public class Tokenizacao {
 		
 		System.out.println("Palavras da frase que terminam com \"ED\":");
 		
+		
 		for(String palavra : token) {
 			
 			if(palavra.endsWith("ED") || palavra.endsWith("ed") || palavra.endsWith("Ed") || palavra.endsWith("eD")) {
